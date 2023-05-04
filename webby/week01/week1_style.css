@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0 auto;
+    font-family: 'GangwonEdu_OTFBoldA';
+}
+
+/* 최상단 영역 */
+header{
+    background-color: #CED6CE;
+    padding: 5%;
+    text-align: left;
+}
+span#headerSpan{
+    width: 300px;
+    float: right;
+    text-align: right;
+}
+span#headerSpan a{
+    padding: 2%;
+    text-decoration: none;
+}
+
+/* 상단 이미지 영역 */
+nav{
+    background: linear-gradient(to bottom, #CED6CE 50%, #FFF6EB 50%);
+    text-align: center;
+}
+img#massage{
+    width: 70%;
+}
+
+/* 콘텐츠 영역 */
+section{
+    background-color: #FFF6EB;
+}
+div{
+    vertical-align: middle;
+}
+
+/* 인물 소개 영역 */
+div#introduceTherapist{
+    background-color: #CED6CE;
+    text-align: left;
+    width: 70%;
+}
+img#therapist{
+    width: 70%;
+    padding: 1%;
+}
+td#therapistText{
+    text-align: justify;
+    padding: 10px;
+    width: 600px;
+}
+
+/* 서비스 영역 */
+div#service{
+    background-color: #F6E6D2;
+    width: 70%;
+    text-align: center;
+}
+h1#serviceTitle{
+    padding: 3%;
+}
+img#stone{
+    width: 60%;
+    padding: 3%;
+}
+
+/* 추천사 영역 */
+div#recommendation{
+    width: 70%;
+    background-color: #FFF6EB;
+    text-align: center;
+}
+h1#recommendationTitle{
+    padding: 5%;
+}
+td.review{
+    text-align: justify;
+    padding: 2%;
+}
+td.client{
+    text-align: left;
+    padding: 2%;
+}
+
+/* 문의 영역 */
+div#inquiryBox{
+    background-color: #F6E6D2;
+    width: 70%;
+    text-align: center;
+    padding: 5%;
+}
+span#inquiryTitle{
+    width: 60%;
+}
+h1#inquiryTitle{
+    background-color: #CED6CE;
+    width: 30%;
+    padding: 2%;
+}
+div#inquiry{
+    background-color: #FFF6EB;
+    width: 60%;
+    padding: 3%;
+}
+span#inquiryContent{
+    padding: 3%;
+}
+table#inquiryTable{
+    text-align: left;
+    width: 50%;
+}
+td.inquiryTd{
+    padding: 10%;
+}
+.inquiryTd input{
+    width: 100%;
+}
+
+/* 최하단 영역 */
+footer{
+    background-color: #CED6CE;
+    padding: 5%;
+    text-align: left;
+}
+span.bottomSpan{
+    padding: 2%;
+}

@@ -1,0 +1,110 @@
+/* 전체 */
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0 auto;
+    font-family: 'TAEBAEKmilkyway';
+}
+a{
+    text-decoration: none;
+}
+/* 상단 바 */
+#header_bar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    opacity : 0.5;
+    text-align: center;
+}
+#header_bar table{
+    width: 100%;
+}
+#header_bar table tr td{
+    padding: 2%;
+}
+#header_bar_links{
+    text-align: right;
+}
+#header_bar_links a{
+    padding: 0px 10px;
+    color: black;
+}
+/* 본인 소개 */
+#introduce_myself table{
+    width: 100%;
+    table-layout: fixed;
+}
+#introduce_myself table tr td{
+    padding: 1%;
+}
+#introduce_myself table tr td img{
+    width: 100%;
+}
+#introduce_myself table tr td strong{
+    font-size: 50px;
+}
+#introduce_myself table tr td b{
+    font-size: 30px;
+}
+#introduce_myself table tr td p{
+    text-align: justify;
+}
+/* 전문 분야 소개 */
+#expertise table{
+    width: 100%;
+    background-color: #D5E1DF;
+    table-layout: fixed;
+}
+#expertise table tr td{
+    padding: 5% 3%;
+}
+#expertise table tr td p{
+    text-align: justify;
+}
+#expertise table tr td a{
+    background-color: #A3B8B4;
+    padding: 10px 30px;
+    color: white;
+}
+/* 문의 */
+#contact table{
+    width: 100%;
+    background-color: #F2F2F2;
+    table-layout: fixed;
+}
+#contact table tr td{
+    padding: 3%;
+}
+#contact table tr td img{
+    width: 100%;
+}
+#contact table tr td b{
+    font-size: 30px;
+}
+#contact table tr td p{
+    text-align: justify;
+}
+#contact table tr td table{
+    padding: 0px;
+    table-layout: fixed;
+}
+#contact table tr td table td{
+    padding: 10px;
+    text-align: left;
+}
+#contact table tr td form table tr td{
+    text-align: center;
+}
+/* 하단 */
+#footer{
+    padding: 15px;
+    background-color: #424746;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}

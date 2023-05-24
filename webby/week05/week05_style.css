@@ -1,0 +1,246 @@
+/* 전체 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0 auto;
+    font-family: 'Pretendard-Regular';
+}
+a{
+    text-decoration: none;
+}
+/* 헤더 */
+#header{
+    padding: 1% 2%;
+    background-color: #787C84;
+}
+/* 헤더 상단 바*/
+#header_top p{
+    display: inline-block;
+    padding: 10px;
+}
+#header_top_mark{
+    background-color: #3A6AFD;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+#header_top_brand b{
+    font-size: 20px;
+}
+#header_top_menubar{
+    float: right;
+    text-align: right;
+}
+#header_top_menubar_links{
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+}
+#header_top_menubar_links a{
+    color: white;
+    padding: 0px 20px;
+}
+#header_top_menubar_button{
+    display: inline-block;
+}
+#header_top_menubar_button a{
+    background-color: #3A6AFD;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+/* 헤더 메인 */
+#header_main{
+    padding: 3% 5%;
+    color: white;
+}
+#header_main_text{
+    font-size: 60px;
+    padding: 2% 0%;
+}
+#header_main_sub_text{
+    font-size: 20px;
+}
+#header_main_get_a_quote{
+    background-color: #3A6AFD;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+#header_main_view_materials_catalog{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+#header_main table{
+    table-layout: fixed;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+}
+#header_main table tr td{
+    border-left: 5px solid #3A6AFD;
+    padding: 30px 10px;
+}
+/* 회사 소개 */
+#introduction{
+    background-color:darkblue;
+    padding: 0% 2%;
+}
+#introduction b{
+    background-color: white;
+    padding: 0px 30px;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+#introduction_text{
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    padding: 5% 2%;
+    width: 40%;
+    color: white;
+}
+#introduction a{
+    background-color: #3A6AFD;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+/* 이유 소개 */
+#why{
+    background-color: #1B3D59;
+    padding: 0% 2%;
+}
+#why_div_title{
+    background-color: white;
+    padding: 0px 30px;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+#why_div_table{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    text-align: left;
+}
+#why_div_table table{
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+}
+#why_div_table table tr td{
+    padding: 20px;
+    vertical-align: top;
+}
+#why_div_table table tr td b{
+    font-size: 20px;
+}
+#why_div_image{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#why_div_image img{
+    width: 100%;
+}
+/* 재료 소개 */
+#materials{
+    padding: 0% 2%;
+    background-color: black;
+}
+#materials b{
+    background-color: white;
+    padding: 0px 30px;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+#materials table{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+#materials table tr td{
+    font-size: 20px;
+}
+#materials table tr td img{
+    width: 90%;
+}
+/* 추천서 */
+#testimonials{
+    padding: 0% 2%;
+    background-color: #242834;
+}
+#testimonials b{
+    background-color: white;
+    padding: 0px 30px;
+    font-size: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+#testimonials table{
+    color: white;
+    table-layout: fixed;
+    padding: 5%;
+}
+#testimonials table tr td{
+    padding: 3%;
+}
+.testimonials_text{
+    border-left: 5px solid #3A6AFD;
+}
+#testimonials table tr td p{
+    font-size: 20px;
+}
+/* FAQ */
+#faq{
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+#faq div{
+    padding: 2%;
+}
+#faq div strong{
+    font-size: 30px;
+}
+#faq div a{
+    padding-right: 30px;
+    color: white;
+}
+#faq div a:hover{
+    color:#3A6AFD;
+}
+#faq p{
+    width: 40%;
+    border-bottom: 1px solid white;
+    padding: 1%;
+    margin: 2%;
+}
+/* 하단 */
+#footer{
+    padding: 3%;
+    background-color: #242834;
+    text-align: left;
+    color: white;
+}
+#footer a{
+    color: white;
+}
+#footer a:hover{
+    color: #3A6AFD;
+}
+/* Let's Chat! 버튼 */
+#chat{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #3A6AFD;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+}

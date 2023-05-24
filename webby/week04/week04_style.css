@@ -1,0 +1,201 @@
+/* 전체 */
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0 auto;
+    font-family: 'TAEBAEKmilkyway';
+}
+a{
+    text-decoration: none;
+}
+/* 헤더 */
+#header{
+    padding: 2% 5%;
+}
+#header div{
+    display: inline-block;
+}
+#header_logo b{
+    font-size: 30px;
+}
+#header_links{
+    float: right;
+    text-align: right;
+    padding-top: 1%;
+}
+#header_links span{
+    padding: 0px 3px;
+}
+#header_links span a:hover{
+    color: green;
+}
+/* 홍보 */
+#promotion{
+    text-align: 30px;
+    height: 200px;
+    padding: 0% 5%;
+}
+#promotion div{
+    display: inline-block;
+    padding: 3% 0%;
+}
+#promotion_image {
+    width: 50%;
+}
+#promotion_image img{
+    width: 100%;
+}
+#promotion_text{
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    width: 45%;
+    padding: 10% 0%;
+    font-size: 25px;
+}
+#promotion_text a{
+    border: 1px solid green;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    color: green;
+}
+/* 본인 소개 */
+#introduce_myself{
+    margin-top : 250px;
+    padding: 0% 5%;
+    text-align: center;
+    vertical-align: middle;
+}
+#introduce_myself img{
+    width: 25%;
+}
+#introduce_myself div{
+    display: inline-block;
+    width: 50%;
+    margin: 20px;
+    padding: 2%;
+    text-align: justify;
+}
+#introduce_myself div b{
+    font-size: 25px;
+}
+#introduce_myself div a{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+#introduce_myself #food_img{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+/* 상담 */
+#dietitian_counseling{
+    padding: 5%;
+    background-color: #C9D8BF;
+    text-align: center;
+}
+#dietitian_counseling strong{
+    font-size: 25px;
+}
+#dietitian_counseling table{
+    text-align: left;
+    background-color: white;
+}
+#dietitian_counseling table tr td{
+    width: 40%;
+    vertical-align: middle;
+    padding: 7px;
+}
+#dietitian_counseling table tr #text_td{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+#dietitian_counseling table tr td b #initial_assessment{
+    font-size: 22px;
+}
+#dietitian_counseling table tr td p{
+    margin: 10px 0px;
+}
+#dietitian_counseling table tr td #book{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+#dietitian_counseling table tr td img{
+    width: 100%;
+}
+#dietitian_counseling #all_sessions{
+    border: 1px solid green;
+    color: green;
+    padding: 10px 30px; 
+}
+/* 레시피 앤 팁 */
+#recipes_and_tips{
+    padding: 5%;
+}
+#recipes_and_tips #vegetable{
+    width: 40%;
+}
+#recipes_and_tips div{
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+    padding: 2%;
+    text-align: justify;
+}
+#recipes_and_tips div b{
+    font-size: 25px;
+}
+#recipes_and_tips div a{
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 16px;
+}
+#recipes_and_tips #ingredient{
+    width: 30%;
+    margin-left: 60%;
+    margin-bottom: 2%;
+}
+/* 하단 */
+#footer{
+    background-color: #1D3B2A;
+    height: 130px;
+    color: white;
+    padding: 5%;
+}
+#footer div{
+    display: inline-block;
+}
+#footer_logo b{
+    font-size: 30px;
+}
+#footer_links{
+    float: right;
+    text-align: right;
+    padding-top: 1%;
+}
+#footer_links span{
+    padding: 0px 3px;
+}
+#footer_links span a{
+    color: white;
+}
+#footer_links span a:hover{
+    color: green;
+}
+/* 고정 버튼 */
+#chat_button{
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    background-color: #1D3B2A;
+    color: white;
+    padding: 20px 40px;
+}

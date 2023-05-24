@@ -1,0 +1,161 @@
+/* 전체 */
+*{
+    margin: 0 auto;
+}
+/* 헤더 */
+header{
+    width: 100%;
+    background-color: #404241;
+    color: #FFFFFF;
+    padding-top: 2%;
+}
+header h1{
+    padding-left: 3%;
+}
+img#headerImage{
+    float: top;
+    width: 50%;
+    padding: 1%;
+}
+table#challengeTable{
+    float: right;
+}
+table#challengeTable td{
+    width: 220px;
+    background-color: #3A3A3A;
+    padding: 2%;
+    text-align: center;
+    border-radius: 40px;
+}
+table#challengeTable td a{
+    text-decoration: none;
+    color: beige;
+}
+/* 본인 소개 */
+section#mystoryArea{
+    width: 100%;
+    height: 460px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+table#mystoryTable{
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+td#mystoryBoxOfImage{
+    text-align: left;
+    padding: 2%;
+}
+#mystoryBoxOfImage h2{
+    padding: 2%;
+}
+img#mystoryImage{
+    width: 90%;
+}
+td#mystoryBoxOfText{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/* 홍보 */
+section#publicityArea{
+    width: 100%;
+}
+div#publicityBox{
+    width: 80%;
+    text-align: left;
+}
+div#publicityBoxTop{
+    height: 150px;
+}
+a#joinButton{
+    float: right;
+    background-color: white;
+    border: 2px solid #404241;
+    text-decoration: none;
+    color: #404241;
+    padding: 5px;
+}
+div#publicityBoxForImage{
+    padding: 0%;
+    text-align: center;
+}
+img#publicityImage{
+    width: 70%;
+}
+div#publicityBoxForMobile{
+    text-align: center;
+}
+img#publicityMoblie{
+    width: 70%;
+    margin-bottom: 50px;
+}
+/* 베네핏 */
+section#benefits{
+    background-color: whitesmoke;
+    float: bottom;
+    height: 500px;
+}
+#benefits h1{
+    padding: 2%;
+}
+#benefitsTable{
+    padding-left: 5%;
+    padding-right: 5%;
+    border-collapse: collapse;
+}
+#benefitsTable tr:nth-child(even){
+    border-bottom: 2px solid sienna;
+}
+#benefitsTable tr td{
+    padding-top: 7px;
+}
+#benefitsTable tr td h3{
+    color: crimson;
+}
+/* 사진 테이블 */
+img#images{
+    width: 100%;
+}
+/* 회원가입 */
+table#joinTable{
+    width: 100%;
+}
+#joinTable td{
+    padding-left: 5%;
+}
+table#formTable{
+    width: 100%;
+    padding: 5%;
+}
+table#formTable tr td{
+    padding: 1%;
+}
+#formTable input{
+    width: 140px;
+}
+#formTable textarea{
+    width: 300px;
+    height: 100px;
+}
+td#joinImageBox{
+    float: right;
+    padding-left: 40%;
+}
+#joinTable img{
+    width: 60%;
+    padding-top: 20px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    vertical-align: middle;
+}
+#footerText{
+    float: bottom;
+    padding-top: 40px;
+    text-align: center;
+}

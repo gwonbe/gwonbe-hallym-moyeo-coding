@@ -2,7 +2,7 @@
 
 https://hallym-webby.tistory.com/category/%ED%99%9C%EB%8F%99%EC%9D%BC%EC%A7%80/%EC%8B%A0%EC%9C%A0%EC%A7%84
 
-주차별 프로젝트
+주차별 연습 프로젝트
 
 - 2023-03-24 : week01_massage_therapy
 - 2023-04-27 : week02_health_trainer
